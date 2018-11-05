@@ -7,7 +7,7 @@ public class DynamicIntArray {
 
 
     public DynamicIntArray(){
-        
+
     }
 
 
@@ -38,7 +38,11 @@ public class DynamicIntArray {
     }
 
 
-    public void insert()
+    public void insert(int index, Object obj){
+
+
+        
+    }
 
 
 
