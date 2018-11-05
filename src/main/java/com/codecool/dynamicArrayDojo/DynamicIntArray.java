@@ -51,8 +51,15 @@ public class DynamicIntArray {
 
     public void remove(Object obj){
 
-        
+        Object[] smallerArray = new Object[data.length - 1];
 
+        for(int i = 0; i < data.length; i++){
+            if(data[i] != obj){
+                smallerArray[i] = data[i];
+            }
+        }
+
+        data = smallerArray;
 
 
     }
